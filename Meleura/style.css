@@ -1,0 +1,70 @@
+body{
+	background: white;
+}
+h1 {margin: 2; text-align: center;}
+p{margin-top: 2; margin-left: 3px; text-align:justify;}
+#tampilan{
+	background: #f0f8ff;
+	width: 1000px;
+	height: 500px;
+	margin: auto;
+
+}
+#header{
+	background: green;
+	height: 200px;
+	width: 1000px;
+}
+#teks{
+	background: #dcdcdc;
+	height: 20px;
+	width: 1000px;
+	overflow:hidden;
+}
+#menu{
+	background: #9999ff;
+	height: 30px;
+	width: 1000px;
+}
+a{
+	text-decoration: none;
+}
+#menu ul{
+	padding: 0px;
+	margin: 0px;
+}
+#menu ul li{
+	display: inline; margin-left: 20px;line-height: 30px;
+	font-size: 18px; border: 1px solid blue;
+	padding: 3px 15px; border-radius: 10px;background: solid green;
+}
+#menu ul li :hover{
+	background: #ffffcf;
+}
+
+#isi{
+	background: #ffffcf;
+	height: 450px;
+	width: 1000px;
+}
+#kiri{
+	background:#a9a9a9;
+	height: 1000px;
+	width: 700px;
+	float: left;
+}
+#kiri img{
+	float: left;
+}
+#kanan{
+	background:pink;
+	height: 1000px;
+	width: 300px;
+	float : left;
+	overflow: hidden;
+}
+#footer{
+	background:blue;
+	height: 20px;
+	width: 1000px;
+}
